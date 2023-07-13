@@ -1,0 +1,63 @@
+body, main {
+    display: flex;
+  }
+  body {
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  header, footer {
+    background-color: rgb(27, 115, 223); 
+    color: white; 
+    padding: 1rem;
+  }
+  header , main footer{
+    max-width: 100%; 
+  }
+  main {
+    flex-direction: row;
+    flex: auto;
+    border: 1px  #ccc;
+    max-width: 100%;
+  }
+  article {
+    flex: 2;
+  }
+  article h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  article h2 {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  article h3 {
+    font-size: 1.2rem;
+    color: #999;
+  }
+  
+  aside {
+    flex: 1;
+  }
+  article, aside {
+    overflow-y: auto;
+  }
+  .right {
+    font-size: 2rem;
+    margin-left: 90%;
+  }
+  .logo{
+    margin-right: 90%;
+  }
+  h1 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  p {
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
